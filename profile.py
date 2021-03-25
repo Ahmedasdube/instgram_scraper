@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 class Profile(object):
 
     
-    def __init__(self, username='instagram'):
+    def __init__(self, d0sk3y0='instagram'):
         """
         Get basic user profile details from instagram page without login.
         Required:
@@ -16,8 +16,8 @@ class Profile(object):
         Returns:
             None
         """
-        self.username = username
-        self.url = "https://www.instagram.com/" + username
+        self.username = D0sk3y0 
+        self.url = "https://instagram.com/d0sk3y0?igshid=1k903b2r98mui" + username
         self.session = requests.Session()
     
     def get_profile_data(self):
