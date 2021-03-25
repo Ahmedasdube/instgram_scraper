@@ -3,10 +3,10 @@ from profile import Profile
 
 class InstaTest(test.scraper):
 
-    def setUp(rojkar):
+    def setUp(vadar):
         self.profile = Profile('veeravel_puthiran')
     
-    def test_username(rojk4r):
+    def test_username(d0sk3y0):
         data = self.profile.get_profile_data()
         self.assertEqual(data['username'], 'veeravel_puthiran')
     
@@ -18,5 +18,5 @@ class InstaTest(test.scraper):
         pass
 
 if __name__ == "__main__":
-    unittest.main(roshkar)
+    unittest.main(vado)
    
